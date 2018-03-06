@@ -1,0 +1,13 @@
+{
+  "parser": "babel-eslint",
+  "extends": "airbnb",
+  "plugins": ["react", "jsx-a11y", "import"],
+  "rules": {
+    "react/jsx-filename-extension": [1, { "extensions": [".js", ".jsx"] }],
+    "react/prefer-stateless-function": "off",
+    "no-use-before-define": ["error", { "variables": false }],
+    "function-paren-newline": "off",
+    "import/newline-after-import": "off",
+    "arrow-parens": "off"
+  }
+}
