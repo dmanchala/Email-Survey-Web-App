@@ -8,6 +8,7 @@
     "no-use-before-define": ["error", { "variables": false }],
     "function-paren-newline": "off",
     "import/newline-after-import": "off",
-    "arrow-parens": "off"
+    "arrow-parens": "off",
+    "global-require": "off"
   }
 }
