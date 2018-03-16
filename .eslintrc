@@ -2,13 +2,22 @@
   "parser": "babel-eslint",
   "extends": "airbnb",
   "plugins": ["react", "jsx-a11y", "import"],
+  "env": {
+    "browser": true
+  },
   "rules": {
     "react/jsx-filename-extension": [1, { "extensions": [".js", ".jsx"] }],
-    "react/prefer-stateless-function": "off",
-    "no-use-before-define": ["error", { "variables": false }],
     "function-paren-newline": "off",
-    "import/newline-after-import": "off",
     "arrow-parens": "off",
-    "global-require": "off"
+    "jsx-a11y/anchor-is-valid": [
+      "error",
+      {
+        "components": ["Link"],
+        "specialLink": ["to"]
+      }
+    ],
+    "react/prop-types": "off",
+    "global-require": "off",
+    "react/prefer-stateless-function": "off"
   }
 }
