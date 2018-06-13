@@ -1,6 +1,6 @@
 # node-with-react
 
-A web application to send email surveys to customers. Built as part of a Udemy course.
+A practice web application to send email surveys to customers. Built as part of a Udemy course.
 
 Frameworks:
 * React
@@ -15,3 +15,5 @@ Services:
 * SendGrid
 * Stripe
 * mLab
+
+[Explore now!](https://limitless-mountain-78334.herokuapp.com/)
