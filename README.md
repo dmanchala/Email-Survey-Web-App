@@ -1,6 +1,6 @@
-# node-with-react
+# Pollstery
 
-A practice web application to send email surveys to customers. Built as part of a Udemy course.
+A practice web application to send yes-no email surveys to customers. Built as part of a Udemy course.
 
 Frameworks:
 * React
